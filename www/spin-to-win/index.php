@@ -1,10 +1,10 @@
 <?php
 // Quick way of preventing user for easily memorizing the url.
 // $enId is the portal_client.hid pass it as a url param to access the page.
-$enId = '5922aed97c988da6960fdf28afa8e194';
+$enId = '060ac71b9ab24ab5a6277435fe1708ef';
 if (empty($_GET['en_id']) || $_GET['en_id'] != $enId) return;
 
-require_once(__DIR__ . '/../../../tachitablet-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-configuration.php');
+require_once(__DIR__ . '/../../../colonial-downs-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-configuration.php');
 
 $assetVersion = ($enConfigClient['environment']['env'] == 'dev') ? time() : $enConfigClient['environment']['deploy_id'];
 $enIdToken = $enEncryptionClient->encrypt(
