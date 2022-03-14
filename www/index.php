@@ -1,9 +1,9 @@
-<?php require_once __DIR__ . '/../../tachitablet-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-front-end.php'; ?>
+<?php require_once __DIR__ . '/../../colonial-downs-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-front-end.php'; ?>
 <!DOCTYPE html>
 <html lang="en" class="setTo100">
 <head>
     <title>$290,000 Truckload of Winning by Tachi Palace Casino</title>
-    <?php require_once __DIR__ . '/../../tachitablet-portal/vendor/engaged-nation/portal-core/GoogleTagManager/Resources/public/gtm.php'; ?>
+    <?php require_once __DIR__ . '/../../colonial-downs-portal/vendor/engaged-nation/portal-core/GoogleTagManager/Resources/public/gtm.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="Play free games online to score bonus chances to win a fully-loaded, 2020 Toyota Tacoma and more every week in November during Tachi Palace Casino’s $290K Truckload of Winning promotion!" />
@@ -40,7 +40,7 @@
             </div>
         </div>
     </div>
-    <script src="//<?php echo $enConfigClient['environment']['site_portal']; ?>/lib/js/engage.php?client_name=tachitablet&client_id=5922aed97c988da6960fdf28afa8e194" type="text/javascript"></script>
+    <script src="//<?php echo $enConfigClient['environment']['site_portal']; ?>/lib/js/engage.php?client_name=colonial-downs&client_id=060ac71b9ab24ab5a6277435fe1708ef" type="text/javascript"></script>
 
     <div id="en-footer-layout-container"></div>
 </body>
